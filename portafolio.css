@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+*{
+    font-family: "Roboto";
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 75px;
+    font-size: 20pt;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+    font-size: 17pt;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 15pt;
+}
+
+h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+
+p, ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+p, ul, li{
+    font-size: 12pt;
+    line-height: 2.25;
+    
+    margin-bottom: 15px;
+
+    text-align: justify;
+    text-justify: inter-cluster;
+}
+
+ul{
+    padding-left: 50px;
+}
+
+hr{
+    border-top: 3px solid #bbb;
+    margin-bottom: 100px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+.content{
+    width: 60%;
+}    
+
+@media (max-width: 800px) {
+    .content{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 16pt;
+    }
+
+    h2{
+        font-size: 14pt;
+    }
+
+    h3{
+        font-size: 12pt;
+    }
+
+    h4, h5, h6{
+        font-size: 10pt;
+    }
+
+    p, ul, li{
+        font-size: 10pt;
+    }
+}
+
+.chapter{
+    margin-bottom: 100px;
+}
+.section{
+    margin-bottom: 50px;
+}
+
+.imageGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imageGroup>.image{
+    margin: 2.5%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25px;
+}
+
+.image>img{
+    max-width: 100%;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
